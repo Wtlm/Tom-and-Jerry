@@ -26,15 +26,6 @@ public class CacheDataLoader {
         loadSound();
     }
 
-    // public int[][] getMap() {
-    // return map;
-    // }
-
-    // public void loadData() {
-    // loadMap();
-    // loadSound();
-    // }
-
     public void loadMap() {
         try {
             FileReader fr = new FileReader(mapFile);
